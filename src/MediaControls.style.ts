@@ -32,7 +32,7 @@ export default StyleSheet.create({
   },
   playButton: {
     alignItems: "center",
-    borderColor: 'transparent',
+    borderColor: "transparent",
     borderRadius: 3,
     borderWidth: 25,
     height: 50,

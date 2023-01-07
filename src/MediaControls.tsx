@@ -69,7 +69,7 @@ const MediaControls = (props: Props) => {
 
   useEffect(() => {
     fadeOutControls(fadeOutDelay);
-  }, []);
+  });
 
   const fadeOutControls = (delay = 0) => {
     Animated.timing(opacity, {
